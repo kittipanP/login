@@ -1,8 +1,5 @@
 <?php
-	session_start();
-	if (!isset($_SESSION['login_id'])){
-		header("Location: index.php");
-	}
+	include 'session.php';
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +9,9 @@
 </head>
 <body>
 	<?php 
-		echo "wellcome".$_SESSION['login_id'];
+		echo "User Code".$_SESSION['login_id'];
+		echo "<br>";
+		echo "Wellcome $s_login_username E-mail $s_login_email";
 	?>
 	<hr>
 	<a href="logout.php">Log Out</a>
