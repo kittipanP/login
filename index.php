@@ -6,6 +6,7 @@
 	</head>
 	<body>
 		<div>
+			<!-- login form-->
 			<form action="login.php" method="POST">
 				<label for="username">Username: </label>
 				<input type="text" name="username" required autofocus>

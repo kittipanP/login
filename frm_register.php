@@ -8,6 +8,8 @@
 	<body>
 		<div>
 		<h1>Register</h1>
+
+		<!-- register form send data to register.php -->
 		<form action="register.php" method="POST">
 			<label for="username">Username: </label>
 			<input type="text" name="username" required autofocus>
