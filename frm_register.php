@@ -2,8 +2,11 @@
 	<head>
 		<meta charset="utf-8"
 		<title></title>
+
+		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
+		<div>
 		<h1>Register</h1>
 		<form action="register.php" method="POST">
 			<label for="username">Username: </label>
@@ -15,5 +18,6 @@
 			<br><br>
 			<input type="submit" name="Register">
 		</form>
+		</div>
 	</body>
 </html>
