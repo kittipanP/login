@@ -18,6 +18,9 @@
 			<br><br>
 			<input type="submit" name="Register">
 		</form>
+		<br>
+		<br>
+		<a href="index.php">Back to Home</a>
 		</div>
 	</body>
 </html>
